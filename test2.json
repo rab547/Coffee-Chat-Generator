@@ -1,0 +1,161 @@
+{
+    "next_page": null,
+    "results": [
+        {
+            "last_updated": "2025-04-01T08:00:00Z",
+            "linkedin_profile_url": "https://www.linkedin.com/in/skainzeuton",
+            "profile": {
+                "first_name": "Skai",
+                "last_name": "Nzeuton",
+                "full_name": "Skai Nzeuton",
+                "public_identifier": "skainzeuton",
+                "profile_pic_url": "https://media.licdn.com/dms/image/C5603AQHsomehash/profile-displayphoto-shrink_800_800/0/1641234567890?e=2147483647&v=beta&t=someHash",
+                "headline": "Incoming SWE Intern @ Microsoft | Founder @ Food for All NYC | CS @ Cornell University",
+                "occupation": "Founder at Food for All NYC",
+                "summary": "As a sophomore studying Computer Science and Entrepreneurship at Cornell University, I am passionate about using technology and innovation to solve complex challenges and create meaningful impact. I have experience in software development and a strong interest in social entrepreneurship. As the Founder of Food for All NYC, I have been working to address food insecurity in my community by leveraging technology and community organizing. I am excited to further develop my skills and make a difference through my upcoming role as a Software Engineering Intern at Microsoft.",
+                "country": "US",
+                "country_full_name": "United States of America",
+                "state": "New York",
+                "city": "New York",
+                "connections": 500,
+                "follower_count": null,
+                "experiences": [
+                    {
+                        "company": "Microsoft",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/company/microsoft/",
+                        "company_facebook_profile_url": null,
+                        "description": null,
+                        "title": "Incoming Software Engineering Intern",
+                        "location": "Redmond, Washington, United States",
+                        "starts_at": { "month": 5, "year": 2025 },
+                        "ends_at": { "month": 8, "year": 2025 },
+                        "logo_url": "https://media.licdn.com/dms/image/C560BAQFsomecode/company-logo_100_100/0/1600000000000?e=2147483647&v=beta&t=someHash"
+                    },
+                    {
+                        "company": "Food for All NYC",
+                        "company_linkedin_profile_url": null,
+                        "company_facebook_profile_url": null,
+                        "description": "Founded a student-led nonprofit initiative to combat food insecurity by redistributing surplus food to underserved communities across NYC. Oversee a team of volunteers and manage partnerships with local businesses and shelters.",
+                        "title": "Founder & President",
+                        "location": "New York, New York, United States",
+                        "starts_at": { "month": 6, "year": 2021 },
+                        "ends_at": null,
+                        "logo_url": null
+                    },
+                    {
+                        "company": "Cornell AppDev",
+                        "company_linkedin_profile_url": null,
+                        "company_facebook_profile_url": null,
+                        "description": "Collaborating with a team of students to develop mobile and web applications for the Cornell community. Working primarily on backend development and API integration.",
+                        "title": "Backend Developer",
+                        "location": "Ithaca, New York, United States",
+                        "starts_at": { "month": 2, "year": 2024 },
+                        "ends_at": null,
+                        "logo_url": null
+                    },
+                    {
+                        "company": "Cornell University",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/school/cornell-university/",
+                        "company_facebook_profile_url": null,
+                        "description": "Led weekly lab sessions and provided one-on-one tutoring for an introductory programming course (CS 1110). Assisted in grading assignments and exams, and helped students learn Python programming fundamentals.",
+                        "title": "Undergraduate Teaching Assistant",
+                        "location": "Ithaca, New York, United States",
+                        "starts_at": { "month": 1, "year": 2025 },
+                        "ends_at": { "month": 5, "year": 2025 },
+                        "logo_url": "https://media.licdn.com/dms/image/C4E0BAQHsomecode/company-logo_100_100/0/1500000000000?e=2147483647&v=beta&t=someOtherHash"
+                    },
+                    {
+                        "company": "Cornell University",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/school/cornell-university/",
+                        "company_facebook_profile_url": null,
+                        "description": "Assisted in academic research on a machine learning project focusing on natural language processing. Implemented data preprocessing and experimented with neural network models to improve accuracy.",
+                        "title": "Undergraduate Research Assistant",
+                        "location": "Ithaca, New York, United States",
+                        "starts_at": { "month": 6, "year": 2024 },
+                        "ends_at": { "month": 8, "year": 2024 },
+                        "logo_url": "https://media.licdn.com/dms/image/C4E0BAQHsomecode/company-logo_100_100/0/1500000000000?e=2147483647&v=beta&t=someOtherHash"
+                    },
+                    {
+                        "company": "ABC Tech Solutions",
+                        "company_linkedin_profile_url": null,
+                        "company_facebook_profile_url": null,
+                        "description": "Contributed to the development of a web application as part of a small engineering team. Built interactive UI components in React and assisted with integrating backend APIs. Presented internship project results to company leadership.",
+                        "title": "Software Engineering Intern",
+                        "location": "New York, New York, United States",
+                        "starts_at": { "month": 6, "year": 2023 },
+                        "ends_at": { "month": 8, "year": 2023 },
+                        "logo_url": null
+                    },
+                    {
+                        "company": "Self-Employed",
+                        "company_linkedin_profile_url": null,
+                        "company_facebook_profile_url": null,
+                        "description": "Provided private tutoring in mathematics and introductory computer science to high school students. Developed customized lesson plans and helped students significantly improve their academic performance in STEM subjects.",
+                        "title": "Freelance Tutor",
+                        "location": "New York, New York, United States",
+                        "starts_at": { "month": 10, "year": 2020 },
+                        "ends_at": { "month": 6, "year": 2023 },
+                        "logo_url": null
+                    }
+                ],
+                "education": [
+                    {
+                        "school": "Cornell University",
+                        "logo_url": "https://media.licdn.com/dms/image/C4E0BAQHsomecode/school-logo_100_100/0/1580000000000?e=2147483647&v=beta&t=someHash",
+                        "degree_name": "Bachelor of Science",
+                        "field_of_study": "Computer Science",
+                        "starts_at": { "year": 2023 },
+                        "ends_at": { "year": 2027 },
+                        "grade": null,
+                        "activities_and_societies": "National Society of Black Engineers (NSBE), Entrepreneurship Club"
+                    },
+                    {
+                        "school": "Bronx High School of Science",
+                        "logo_url": null,
+                        "degree_name": "High School Diploma",
+                        "field_of_study": "Science",
+                        "starts_at": { "year": 2019 },
+                        "ends_at": { "year": 2023 },
+                        "grade": null,
+                        "activities_and_societies": null
+                    }
+                ],
+                "certifications": [
+                    {
+                        "authority": "Amazon Web Services (AWS)",
+                        "name": "AWS Certified Cloud Practitioner",
+                        "license_number": null,
+                        "url": null,
+                        "starts_at": { "month": 7, "year": 2022 },
+                        "ends_at": null,
+                        "display_source": null
+                    }
+                ],
+                "languages": [ "English", "French" ],
+                "skills": [ "Python", "Java", "C++", "JavaScript", "React", "Machine Learning", "Leadership", "Public Speaking" ],
+                "volunteer_work": [
+                    {
+                        "organization": "Food Bank For New York City",
+                        "role": "Volunteer",
+                        "cause": "Poverty Alleviation",
+                        "description": "Distributed meals and pantry supplies to families and individuals in need, contributing 100+ volunteer hours during the COVID-19 pandemic.",
+                        "starts_at": { "month": 6, "year": 2020 },
+                        "ends_at": { "month": 8, "year": 2020 }
+                    }
+                ],
+                "people_also_viewed": [],
+                "recommendations": [],
+                "similarly_named_profiles": [],
+                "groups": [],
+                "accomplishment_organisations": [],
+                "accomplishment_patents": [],
+                "accomplishment_projects": [],
+                "accomplishment_publications": [],
+                "accomplishment_test_scores": [],
+                "articles": [],
+                "background_cover_image_url": null,
+                "activities": []
+            }
+        }
+    ]
+}

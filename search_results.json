@@ -1,0 +1,144 @@
+{
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/christine-o-riley-536b2072",
+      "profile": {
+        "public_identifier": "christine-o-riley-536b2072",
+        "profile_pic_url": null,
+        "background_cover_image_url": null,
+        "first_name": "Christine",
+        "last_name": "O'Riley",
+        "full_name": "Christine O'Riley",
+        "follower_count": 137,
+        "occupation": "Software Engineer at Google",
+        "headline": "Software Engineer at Google",
+        "summary": null,
+        "country": "US",
+        "country_full_name": "United States of America",
+        "city": "Culver City",
+        "state": "California",
+        "experiences": [
+          {
+            "starts_at": { "day": 1, "month": 8, "year": 2018 },
+            "ends_at": null,
+            "company": "Google",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/google/",
+            "title": "Software Engineer",
+            "location": "Venice, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo/0/1631311446380"
+          },
+          {
+            "starts_at": { "day": 1, "month": 11, "year": 2017 },
+            "ends_at": { "day": 31, "month": 8, "year": 2018 },
+            "company": "i.am+",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/iam-/",
+            "title": "Software Engineering Manager",
+            "location": "Los Angeles, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQGBx3aXhMsaCQ/company-logo/0/1630593842726"
+          },
+          {
+            "starts_at": { "day": 1, "month": 5, "year": 2013 },
+            "ends_at": { "day": 30, "month": 11, "year": 2017 },
+            "company": "Praedicat, Inc.",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/praedicat/",
+            "title": "Vice President Of Engineering",
+            "location": "Los Angeles, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQFgBVfT1NP6CA/company-logo/0/1725539603828"
+          },
+          {
+            "starts_at": { "day": 1, "month": 6, "year": 2003 },
+            "ends_at": { "day": 31, "month": 5, "year": 2013 },
+            "company": "Raytheon",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/raytheon/",
+            "title": "Senior Software Engineer with Honors",
+            "location": null,
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQEJrjIh_xsiKg/company-logo/0/1687168982390"
+          }
+        ],
+        "education": [
+          {
+            "starts_at": { "day": 1, "month": 1, "year": 1999 },
+            "ends_at": { "day": 31, "month": 1, "year": 2001 },
+            "field_of_study": "Computer Science",
+            "degree_name": "Bachelor of Science (BS)",
+            "school": "LeTourneau University",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/letourneau-university/"
+          },
+          {
+            "starts_at": { "day": 1, "month": 1, "year": 1995 },
+            "ends_at": { "day": 31, "month": 1, "year": 1998 },
+            "field_of_study": "Engineering Physics, Computer Science",
+            "degree_name": null,
+            "school": "Cornell University",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/cornell-university/"
+          }
+        ],
+        "skills": [],
+        "certifications": [],
+        "languages": [],
+        "connections": 136,
+        "people_also_viewed": [
+          { "name": "Leanna Hue", "link": "https://www.linkedin.com/in/leanna-hue", "summary": "Software Engineer at Google" },
+          { "name": "Kayla Hanson", "link": "https://www.linkedin.com/in/hansonkayla", "summary": "Software Engineer at Google" },
+          { "name": "Jamie LaPointe", "link": "https://www.linkedin.com/in/jamielapointe", "summary": "Senior Software Engineer @ Google" }
+        ]
+      },
+      "last_updated": "2025-04-08T04:01:52"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cristosgoodrow",
+      "profile": {
+        "public_identifier": "cristosgoodrow",
+        "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/cristosgoodrow/profile?...",
+        "first_name": "Cristos",
+        "last_name": "Goodrow",
+        "full_name": "Cristos Goodrow",
+        "occupation": "Vice President Engineering at Google",
+        "headline": "Vice President Engineering",
+        "summary": "Increase the value that viewers and society get from YouTube...",
+        "country": "US",
+        "city": "Burlingame",
+        "state": "California",
+        "experiences": [
+          {
+            "company": "Google",
+            "title": "Vice President Engineering",
+            "location": "San Francisco Bay Area",
+            "starts_at": { "month": 1, "year": 2008 }
+          },
+          {
+            "company": "A9.com",
+            "title": "Director of Search Engine Software",
+            "location": null,
+            "starts_at": { "month": 7, "year": 2005 }
+          }
+        ],
+        "education": [
+          {
+            "school": "University of California, Berkeley",
+            "field_of_study": "Mathematics",
+            "starts_at": { "year": 1996 },
+            "ends_at": { "year": 1998 }
+          },
+          {
+            "school": "UC Santa Barbara",
+            "field_of_study": "Mathematics",
+            "degree_name": "M.A.",
+            "starts_at": { "year": 1994 },
+            "ends_at": { "year": 1996 }
+          }
+        ],
+        "skills": [],
+        "certifications": [],
+        "connections": 500,
+        "people_also_viewed": [
+          { "name": "Jeff Dean", "link": "https://www.linkedin.com/in/jeff-dean-8b212555", "summary": "Chief Scientist, Google DeepMind" },
+          { "name": "Philipp Schindler", "link": "https://www.linkedin.com/in/philipp-schindler-12531a94", "summary": "SVP & Chief Business Officer at Google" }
+        ]
+      },
+      "last_updated": "2025-02-24T00:18:19"
+    }
+  ],
+  "next_page": "https://nubela.co/proxycurl/api/v2/search/person?...",
+  "total_result_count": 2121
+}

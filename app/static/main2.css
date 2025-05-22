@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* BASIC */
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+              url("{{ url_for('static', filename='your_logo.png') }}") no-repeat center center fixed;
+  background-size: 220px 220px;
+  background-color: #f4f6f8;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #7BA05B; /* matcha accent */
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #333333;
+}
+
+/* STRUCTURE */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #e0e0e0;
+  padding: 25px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+/* TABS */
+
+h2.inactive {
+  color: #cccccc;
+}
+
+h2.active {
+  color: #2e2e2e;
+  border-bottom: 2px solid #7BA05B; /* matcha underline */
+}
+
+/* FORM TYPOGRAPHY */
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #88b04b; /* Matcha green */
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  width: 85%;
+  box-shadow: 0 10px 30px rgba(136,176,75,0.4); /* Matcha shadow */
+  border-radius: 5px;
+  margin: 5px 20px 40px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #7BA05B; /* darker matcha */
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+  transform: scale(0.95);
+}
+
+input[type=email], input[type=password], input[type=text] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+input[type=email]:focus, input[type=password]:focus, input[type=text]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #7BA05B; /* Matcha underline */
+}
+
+input::placeholder {
+  color: #cccccc;
+}
+
+/* ANIMATIONS */
+
+.fadeInDown {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn ease-in 1s forwards;
+}
+
+.fadeIn.first { animation-delay: 0.4s; }
+.fadeIn.second { animation-delay: 0.6s; }
+.fadeIn.third { animation-delay: 0.8s; }
+.fadeIn.fourth { animation-delay: 1s; }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* underlineHover Animation */
+
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #88b04b; /* matcha green */
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #2e2e2e;
+}
+
+.underlineHover:hover:after {
+  width: 100%;
+}
+
+/* MISC */
+
+*:focus {
+  outline: none;
+}
+
+#icon {
+  width: 30%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+* {
+  box-sizing: border-box;
+}

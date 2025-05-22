@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #A3C774;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+    .top-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;            /* span 90% of the viewport width */
+      max-width: 1400px;     /* optional cap on very large screens */
+      margin: 20px auto 0;   /* 20px from top, auto left/right */
+      padding: 0;            /* no extra padding needed */
+      box-sizing: border-box;
+    }
+    .top-buttons a {
+      background: linear-gradient(145deg, #5A7F35, #4E6B2F);
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .top-buttons a:hover {
+      background: linear-gradient(145deg, #4E6B2F, #5A7F35);
+      transform: scale(1.05);
+    }
+
+    .container {
+      margin: 60px auto 0 auto; /* pull it up: only 60px below top-buttons */
+      /* rest stays the same */
+      display: flex;
+      width: 75%;
+      justify-content: space-between;
+      padding: 40px;
+      gap: 30px;
+      background-color: #FFFFFF;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      height: 75%;
+    }
+    .left-box, .right-box {
+      width: 48%;
+      padding: 20px;
+      background-color: #FFFFFF;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      height: 100%;
+    }
+    .left-box img {
+      width: 30%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+    .text-field {
+      width: 90%;
+      padding: 14px;
+      margin-top: 10px;
+      border-radius: 10px;
+      font-family: Arial;
+      border: 1px solid #CCC;
+      font-size: 16px;
+      outline: none;
+      transition: border 0.3s, box-shadow 0.3s;
+      resize: vertical;
+      min-height: 150px; /* Larger size */
+      max-height: 300px; /* Max height before scrolling */
+      overflow-y: auto; /* Enable vertical scrolling */
+    }
+    .text-field:focus {
+      border-color: #5A7F35;
+      box-shadow: 0 0 5px rgba(90, 127, 53, 0.5);
+    }
+    .button {
+      padding: 10px 16px;
+      width: 100%;
+      background: linear-gradient(145deg, #A3C774, #89A663);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .button:hover {
+      background: linear-gradient(145deg, #89A663, #A3C774);
+      transform: scale(1.05);
+    }
+    .button:active {
+      transform: scale(1);
+    }
+    .small-button {
+      padding: 8px 16px;
+      font-size: 14px;
+      width: auto;
+    }
+    .hidden-edit {
+      display: none;
+    }
+    .edit-container {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      min-height: 30px;
+    }
+    .edit-container button {
+      margin-left: 10px;
+    }
+    /* Style for subject line */
+    #subjectline {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 10px;
+      border: 1px solid #CCC;
+      font-size: 16px;
+      outline: none;
+      transition: border 0.3s, box-shadow 0.3s;
+    }
+
+    #subjectline:focus {
+      border-color: #5A7F35;
+      box-shadow: 0 0 5px rgba(90, 127, 53, 0.5);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top Navigation Buttons -->
+  <div class="top-buttons">
+    <div style="flex: 1;">
+      <a href="{{ url_for('index') }}">← Back</a>
+    </div>
+    <div style="flex: 1; text-align: right;">
+      <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Left Box -->
+    <div class="left-box">
+      <div style="height: 150px; background-color: #FFFFFF; margin-bottom: 10px;">
+        <img src="{{pfp}}" alt="Image Placeholder">
+      </div>
+      <p>{{personSummary}}</p>
+    </div>
+
+    <!-- Right Box -->
+    <div class="right-box">
+      <form id="resume-form" action="{{ url_for('update_email') }}" method="POST" enctype="multipart/form-data">
+        <label for="subjectline">Subject Line:</label>
+        <input type="text" id="subjectline" name="subjectline" placeholder="Enter the subject line here" value="{{ subjectLine }}">
+
+        <label for="email">Generated Email:</label>
+        <textarea id="email" class="text-field" name="email" placeholder="Type something...">{{ contents }}</textarea>
+        
+        <input type="text" id="edits" name = "edits" placeholder="e.g. Make more concise">
+        <button type="submit" id = "update" name = "action" value = "update" class="button small-button">Update</button>
+        <button type="submit" id = "send" name = "action" value = "send" class="button small-button">Send Test Email</button>
+
+
+        <!-- <button type="button" class="button small-button" onclick="showEditField()">Make Edits</button>
+        <div id="edit-field-container" class="hidden-edit">
+          <div class="edit-container">
+            <input type="text" id="edits" name = "edits" placeholder="e.g. Make more concise" required>
+            <button type="submit" id = "update" name = "action" value = "update" class="button small-button">Update</button>
+            <button type="submit" id = "send" name = "action" value = "send" class="button small-button">Send Test Email</button>
+          </div>
+        </div>
+      </form> -->
+      
+      
+    </div>
+
+  </div>
+
+  <script>
+    function showEditField() {
+      const editFieldContainer = document.getElementById('edit-field-container');
+      editFieldContainer.classList.toggle('hidden-edit');
+    }
+  </script>
+
+</body>
+</html>

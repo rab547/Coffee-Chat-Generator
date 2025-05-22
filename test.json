@@ -1,0 +1,177 @@
+{
+    "results": [
+        {
+            "linkedin_profile_url": "https://www.linkedin.com/in/mahitha-penmetsa/",
+            "profile": {
+                "public_identifier": "mahitha-penmetsa",
+                "profile_pic_url": null,
+                "background_cover_image_url": null,
+                "first_name": "Mahitha",
+                "last_name": "Penmetsa",
+                "full_name": "Mahitha Penmetsa",
+                "follower_count": null,
+                "connections": 500,
+                "occupation": "Undergraduate Researcher at Cornell University",
+                "headline": "CS @ Cornell | Prev SWE Intern @ Apple",
+                "summary": "I am Mahi, a student at Cornell University majoring in Computer Science. I am passionate about building software to help people.",
+                "country": "US",
+                "country_full_name": "United States of America",
+                "city": "Chester Springs",
+                "state": "Pennsylvania",
+                "experiences": [
+                    {
+                        "title": "Undergraduate Student Researcher",
+                        "company": "Cornell University",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/school/cornell-university/",
+                        "location": "Ithaca, New York, United States",
+                        "starts_at": { "month": 9, "year": 2024 },
+                        "ends_at": null,
+                        "description": "Conducting research on large language model (LLM) performance for financial services (American Express) as an undergraduate researcher in the Computer Science department."
+                    },
+                    {
+                        "title": "Software Engineering Intern",
+                        "company": "Apple",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/company/apple/",
+                        "location": "Cupertino, California, United States",
+                        "starts_at": { "month": 5, "year": 2024 },
+                        "ends_at": { "month": 8, "year": 2024 },
+                        "description": "Developed and tested features for Apple's advertising platform team as a software engineering intern."
+                    },
+                    {
+                        "title": "Full-Stack Software Engineering Intern",
+                        "company": "Fidelity Investments",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/company/fidelity-investments/",
+                        "location": "Durham, North Carolina, United States",
+                        "starts_at": { "month": 6, "year": 2023 },
+                        "ends_at": { "month": 8, "year": 2023 },
+                        "description": "Built and improved full-stack web applications for internal financial tools and client services."
+                    },
+                    {
+                        "title": "Software Engineering Fellow",
+                        "company": "Uber",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/company/uber/",
+                        "location": null,
+                        "starts_at": { "month": 1, "year": 2023 },
+                        "ends_at": { "month": 4, "year": 2023 },
+                        "description": "Participated in Uber's engineering fellowship program, working on coding challenges and projects under mentorship from Uber engineers."
+                    },
+                    {
+                        "title": "Research Assistant",
+                        "company": "Weill Cornell Medicine",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/company/weill-cornell-medicine/",
+                        "location": "New York, New York, United States",
+                        "starts_at": { "month": 1, "year": 2023 },
+                        "ends_at": { "month": 5, "year": 2023 },
+                        "description": "Managed patient records and validated survey data as part of a clinical research project in a healthcare research lab."
+                    },
+                    {
+                        "title": "Data Scientist (Project Team Member)",
+                        "company": "Cornell Data Science",
+                        "company_linkedin_profile_url": null,
+                        "location": "Ithaca, New York, United States",
+                        "starts_at": { "month": 9, "year": 2022 },
+                        "ends_at": { "month": 5, "year": 2023 },
+                        "description": "Collaborated with a student team to develop data-driven solutions and machine learning models for real-world problems as part of an undergraduate project team."
+                    },
+                    {
+                        "title": "Data & Web Development Intern",
+                        "company": "Heartland Core Wellness",
+                        "company_linkedin_profile_url": null,
+                        "location": "Pennsylvania, United States",
+                        "starts_at": { "month": 7, "year": 2021 },
+                        "ends_at": { "month": 8, "year": 2021 },
+                        "description": "Developed the company website and implemented data management tools for a local wellness center."
+                    }
+                ],
+                "education": [
+                    {
+                        "school": "Cornell University",
+                        "school_linkedin_profile_url": "https://www.linkedin.com/school/cornell-university/",
+                        "degree_name": "Bachelor of Science",
+                        "field_of_study": "Computer Science & Operations Research",
+                        "starts_at": { "year": 2022 },
+                        "ends_at": { "year": 2026 },
+                        "grade": null,
+                        "activities_and_societies": null,
+                        "description": null
+                    },
+                    {
+                        "school": "Downingtown High School East Campus",
+                        "school_linkedin_profile_url": null,
+                        "degree_name": "High School Diploma",
+                        "field_of_study": null,
+                        "starts_at": { "year": 2018 },
+                        "ends_at": { "year": 2022 },
+                        "grade": null,
+                        "activities_and_societies": null,
+                        "description": null
+                    }
+                ],
+                "certifications": [
+                    {
+                        "name": "AWS Certified Cloud Practitioner",
+                        "authority": "Amazon Web Services",
+                        "license_number": null,
+                        "url": null,
+                        "starts_at": { "month": 12, "year": 2022 },
+                        "ends_at": { "month": 12, "year": 2025 }
+                    }
+                ],
+                "skills": [
+                    "Python",
+                    "Java",
+                    "C++",
+                    "Machine Learning",
+                    "Data Analysis",
+                    "Web Development"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "volunteer_work": [
+                    {
+                        "title": "Data & Technology Fellow",
+                        "company": "BlueBonnet Data",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/company/bluebonnet-data/",
+                        "cause": "Political Engagement",
+                        "starts_at": { "month": 9, "year": 2022 },
+                        "ends_at": { "month": 12, "year": 2022 },
+                        "description": "Worked with a team of volunteers to analyze civic data and develop tech solutions for a political campaign."
+                    },
+                    {
+                        "title": "Instructor Assistant",
+                        "company": "Kode With Klossy",
+                        "company_linkedin_profile_url": "https://www.linkedin.com/company/kode-with-klossy/",
+                        "cause": "Education",
+                        "starts_at": { "month": 7, "year": 2021 },
+                        "ends_at": { "month": 8, "year": 2021 },
+                        "description": "Taught introductory web development to high school girls as a volunteer teaching assistant in a coding bootcamp."
+                    }
+                ],
+                "people_also_viewed": [
+                    {
+                        "link": "https://www.linkedin.com/in/john-doe-123456/",
+                        "name": "John Doe",
+                        "summary": "Software Engineering Intern at Apple",
+                        "location": "Cupertino, California, United States"
+                    }
+                ],
+                "recommendations": [],
+                "similarly_named_profiles": [
+                    {
+                        "link": "https://www.linkedin.com/in/mahita-penmetsa/",
+                        "name": "Mahita Penmetsa",
+                        "summary": "Student at Green Hope High School",
+                        "location": "Cary, North Carolina, United States"
+                    }
+                ],
+                "groups": []
+            },
+            "last_updated": "2025-04-20T10:00:00Z"
+        }
+    ],
+    "total_result_count": 1,
+    "next_page": null
+}
+
+

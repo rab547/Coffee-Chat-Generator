@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Coffee Matcher - Sign In</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'main.css') }}">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: url("{{ url_for('static', filename='1.jpg') }}") no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #DBE5BB;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .card {
+      background: #DBE5BB;
+      padding: 40px 30px;
+      border-radius: 12px;
+      width: px;
+      text-align: center;
+      transform: translateY(-20px);
+      opacity: 0;
+      animation: slideUp 0.6s ease-in-out forwards;
+    }
+
+    #icon {
+      width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+      animation: scaleUp 1s ease-in-out;
+    }
+
+    .login-button {
+      background-color: #7BA05B;
+      border: none;
+      color: #fff;
+      padding: 14px 22px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: transform 0.3s, background-color 0.3s;
+      width: 100%;
+      margin-top: 15px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .login-button:hover {
+      background-color: #688b4c;
+      transform: scale(1.05);
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes scaleUp {
+      from {
+        transform: scale(0.9);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="{{ url_for('static', filename='Logo.png') }}" id="icon" alt="Logo"/>
+    <a href="{{ url_for('google_login') }}" class="login-button">
+      Sign in with Google
+    </a>
+  </div>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Coffee Matcher - Sign In</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'main.css') }}">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: url("{{ url_for('static', filename='1.jpg') }}") no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f8f9fa;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      width: 400px;
+      text-align: center;
+    }
+
+    .card h2 {
+      font-size: 24px;
+      margin-bottom: 25px;
+      color: #2e2e2e;
+      font-weight: 500;
+    }
+
+    #icon {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+
+    .login-button {
+      background-color: #7BA05B; /* Professional matcha tone */
+      border: none;
+      color: #fff;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      width: 100%;
+      margin-top: 15px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .login-button:hover {
+      background-color: #688b4c; /* Slightly darker matcha on hover */
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="{{ url_for('static', filename='Logo.png') }}" id="icon"/>
+    <h2>Sign In</h2>
+
+    <a href="{{ url_for('google_login') }}" class="login-button">
+      Sign in with Google
+    </a>
+  </div>
+</body>
+</html> -->
