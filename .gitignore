@@ -21,6 +21,9 @@ rad.json
 #Test results file
 TestResults.xml
 
+app/FBcredentials.json
+GCal_credentials.json
+
 .venv
 
 #api keys
