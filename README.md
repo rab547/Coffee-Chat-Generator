@@ -4,7 +4,7 @@ Generate personalized coffee-chat outreach emails from your resume and a few inp
 
 ## What it does
 
-- Drafts outreach emails using your details and targets you provide (role, company, person, context).
+- Drafts outreach emails using your details and targets you provide (role, company, person, context). Utilizes Groq API for LLM based email generation.
 - Parses your resume to auto-pull highlights and talking points (via `ResumeParser/`).
 - Integrates with Gmail to create drafts or send emails (via `GmailAPI.py` and `EmailSend.py`).
 - Checks calendar availability for proposing times (via `GoogleCalendarAPI/` and `GCal_credentials.json`).
